@@ -1,29 +1,17 @@
 {
-  "name": "awesome-github-profile",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/awesome-github-profile/",
-    "build:vercel": "vite build"
-  },
-  "dependencies": {
-    "vue": "^3.0.0-rc.5"
-  },
+  "name": "Mundana",
+  "description": "HTML Bootstrap Blogging Template",
+  "version": "1.0.0",
+  "homepage": "https://www.wowthemes.net/mundana-free-html-bootstrap-template/",
+  "author": "WowThemesNet",
+  "license": "WowThemesNet License <https://www.wowthemes.net/freebies-license/>",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.0",
-    "@vue/compiler-sfc": "^3.0.0-rc.5",
-    "less": "^3.12.2",
-    "vite": "^2.0.0-beta.35"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zzetao/awesome-github-profile.github.io.git"
-  },
-  "keywords": [],
-  "author": "zzetao",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zzetao/awesome-github-profile.github.io/issues"
-  },
-  "homepage": "https://github.com/zzetao/awesome-github-profile.github.io#readme"
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
 }
