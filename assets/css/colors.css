@@ -1,0 +1,568 @@
+/* Main Rules */
+.separator {background: #f7465b;}
+.tooltip-inner {background-color: #f7465b;}
+.tooltip.top .tooltip-arrow {border-top-color: #f7465b;}
+::-moz-selection {background: #f7465b;}
+::selection {background: #f7465b;}
+.btn-custom {border: 1px solid #f7465b;}
+.btn-custom:hover {background: #f7465b;}
+.btn-custom.reverse {background: #f7465b;}
+.btn-custom.reverse:hover {border: 1px solid #f7465b;}
+.btn-custom.light:hover {color: #f7465b !important;}
+
+/* Color-Box Switch */
+.color-switcher h6 {background: #f7465b;}
+.color-switcher .switcher-btn {background: #f7465b;}
+.color-switcher .map-styles li a:hover {background: #f7465b;}
+
+/* Home Section */
+#home .navbar span.colored-brand {background: #f7465b;}
+#home .navbar .nav>li>a:focus, #home .navbar .nav>li>a:hover {color: #f7465b;}
+#home .navbar.scrolled .navbar-brand {color: #f7465b;}
+#home .navbar.scrolled .navbar-toggle .icon-bar {background-color: #f7465b;}
+#home .navbar.scrolled .nav .active a {background: #f7465b;}
+.hero-content-wrapper .hero-content span.dot {background: #f7465b;}
+#home .go-down:hover {background: #f7465b; border-color: #f7465b;}
+
+/* About Section */
+#about .info-tabs .nav-tabs>li>a {background: #f7465b;}
+#about .info-tabs .nav-tabs>li.active>a,
+#about .info-tabs .nav-tabs>li.active>a:focus,
+#about .info-tabs .nav-tabs>li.active>a:hover,
+#about .info-tabs .nav-tabs>li>a:hover {border-color: #f7465b;}
+#about .info-tabs .tab-content {border: 1px solid #f7465b;}
+
+/* Ready Section */
+#ready {background: #f7465b;}
+
+/* Services Section */
+#services .service i:after {box-shadow: 0px 0px 0px 4px #f7465b;}
+#services .service:hover i {background: #f7465b;}
+
+/* Skills Section */
+#skills .skill .chart span.percent {color: #f7465b;}
+
+/* Testimonials Section */
+#testimonials .carousel .carousel-indicators li.active {background: #f7465b;}
+#testimonials .carousel .carousel-control {border: 1px solid #f7465b;}
+#testimonials .carousel .carousel-control:hover {background: #f7465b;}
+
+/* Experiences Section */
+#experiences .timeline .event .event-left i {color: #f7465b;}
+#experiences .timeline .event .event-left h4 {background: #f7465b;}
+#experiences .timeline .event .event-right::before {background: #f7465b;}
+#experiences .timeline .event .event-right::after {border: 2px solid #f7465b;}
+
+/* Contact Section */
+#contact .call-info i {background: #f7465b;}
+#contact .call-info:hover .info-wrapper {background: #f7465b;}
+#contact .call-info:hover i {color: #f7465b;}
+#contact form #submit:hover {background: #f7465b; border-color: #f7465b;}
+
+/* To Top Button */
+#toTop {background: #f7465b;}
+
+/* -------------------------------------
+              Media Queries
+* ------------------------------------- */
+@media (max-width: 991px) { 
+	/* Adjusting the navbar */
+	#home .navbar .nav .active a, #home .navbar .navbar-brand {color: #f7465b;}
+	#home .navbar .navbar-toggle .icon-bar {background: #f7465b;}
+}
+
+/* -------------------------------------
+    ( 11 ) Start Quote Section
+* ------------------------------------- */
+#quote {
+	background: #333 url("../img/section-bg-02.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding: 120px 0px 60px;
+}
+#quote.parallax {background-attachment: fixed;}
+#quote h2, #quote p, #quote a {color: #fff;}
+#quote p {margin-top: 30px;}
+#quote a {margin-bottom: 60px;}
+
+/* End Quote Section */
+
+
+/* -------------------------------------
+    ( 12 ) Start Experiences Section
+* ------------------------------------- */
+#experiences .timeline {margin-top: 40px;}
+#experiences .timeline .event {margin-bottom: 40px;}
+#experiences .timeline .event .event-left {text-align: right; padding: 0 50px;}
+#experiences .timeline .event .event-left h4 {
+	float: right;
+	margin-top: 0px;
+	padding: 10px 20px;
+	color: #fff;
+}
+#experiences .timeline .event .event-left i {
+	position: absolute;
+	z-index: 1;
+	right: -16px;
+	top: 7px;
+	display: inline-block;
+	font-size: 25px;
+}
+#experiences .timeline .event .event-right {text-align: left; padding: 0 50px 0 60px;}
+#experiences .timeline .event .event-right::before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: calc(100% - 10px);
+	left: 0;
+	top: 45px;
+}
+#experiences .timeline .event .event-right.last-event::before {top: 45px; height: calc(100% - 45px);}
+#experiences .timeline .event .event-right::after {
+	position: absolute;
+	left: 0;	
+	top: 0;
+	content: "";
+	background: transparent;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: translateX(-19px) rotate(45deg);
+		-ms-transform: translateX(-19px) rotate(45deg);
+			transform: translateX(-19px) rotate(45deg);
+}
+#experiences .timeline .event .event-right .content-wrapper {
+	position: relative;
+	border: 1px solid #ddd;
+	padding: 20px;
+}
+#experiences .timeline .event .event-right .content-wrapper::before {
+	position: absolute;
+	content: "";
+	top: 9px;
+	left: -10px;
+	border-right: 10px solid #ddd;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+#experiences .timeline .event .event-right h4 {margin-bottom: 0;}
+#experiences .timeline .event .event-right p.job-title {color: #777;}
+
+/* End Experiences Section */
+
+
+/* -------------------------------------
+    ( 13 ) Start Skills Section
+* ------------------------------------- */
+#skills {
+	background: #333 url("../img/skills.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+#skills.parallax {background-attachment: fixed;}
+#skills h2, #skills p, #skills h3 {color: #fff;}
+#skills h3 {margin-top: 20px;}
+#skills p {padding-left: 15px; padding-right: 15px;}
+#skills .skill {margin: 40px 0;}
+#skills .skill .chart {position: relative; min-height: 155px;}
+#skills .skill .chart span {
+	display: inline-block;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+#skills .skill .chart span.skill-timer {
+	top: 50%;
+	left: 48%;
+	color: #fff;
+	font-size: 30px;
+}
+#skills .skill .chart span.percent {
+	left: 50%;
+	top: 60%;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #ddd;
+}
+
+/* End Skills Section */
+
+
+/* -------------------------------------
+    ( 14 ) Start Portfolio Section
+* ------------------------------------- */
+#portfolio .controls {margin-bottom: 40px;}
+#portfolio .controls button {margin: 0 5px;}
+#portfolio .project {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+#portfolio .project .project-img-wrapper {
+	-webkit-transition: all .5s ease-in-out;
+    		transition: all .5s ease-in-out;
+}
+#portfolio .project:hover .project-img-wrapper {
+	-webkit-transform: scale(1.1) rotate(5deg);
+	    -ms-transform: scale(1.1) rotate(5deg);
+	        transform: scale(1.1) rotate(5deg);
+	-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+			transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);    
+}
+#portfolio .project .img-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: all 0.5s ease-in-out;
+    		transition: all 0.5s ease-in-out;
+}
+#portfolio .project:hover .img-overlay {opacity: 1;	visibility: visible;}
+#portfolio .project .overlay-text {
+	position: absolute;
+	left: 0px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: -60px;
+	opacity: 0;
+	-webkit-transition: all 0.5s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.5s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#portfolio .project:hover .overlay-text {bottom: 30px;	opacity: 1;}
+#portfolio .project .overlay-text h4 {
+	color: #fff; 
+	margin-bottom: 5px; 
+	letter-spacing: 2px;
+}
+#portfolio .project .overlay-text p {
+	color: #ccc;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#portfolio .modal-header h4 {line-height: 38px;}
+#portfolio .modal-header button.close {
+	border: 1px solid #555;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#portfolio .modal-body img { margin-bottom: 20px; }
+#portfolio .modal-body h4, #portfolio .modal-body p {text-align: left;}
+#portfolio .modal-body p.project-description {margin-top: 20px;}
+#portfolio .modal-body p.subtitle {
+	color: #555;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+#portfolio .modal-body a {margin: 10px;}
+#portfolio .interested {margin-top: 40px; margin-bottom: 40px;}
+#portfolio .interested a {margin-top: 20px;}
+
+/* End Portfolio Section */
+
+
+/* -------------------------------------
+    ( 15 ) Start Testimonials Section
+* ------------------------------------- */
+#testimonials {
+	background: #333 url("../img/testimonials.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	padding-bottom: 80px;
+}
+#testimonials.parallax {background-attachment: fixed;}
+#testimonials h2, #testimonials p {color: #fff; position: relative;}
+#testimonials .carousel {margin-top: 50px; margin-bottom: 50px;}
+#testimonials .carousel .carousel-indicators {bottom: -60px; margin-bottom: 0;}
+#testimonials .carousel .carousel-indicators li {
+	width: 20px;
+	height: 6px;
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	margin: 1px;
+}
+#testimonials .carousel .carousel-indicators li.active {margin: 1px;}
+#testimonials .carousel h4 {
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 1.5px;
+}
+#testimonials .carousel img {margin: auto;}
+#testimonials .carousel p.testimonial-text {
+	margin-bottom: 0;
+	letter-spacing: 1.5px;
+	color: #dbdbdb;
+}
+#testimonials .carousel .carousel-controls {
+	position: absolute;
+	left: 50%;
+	margin-top: 20px;
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+#testimonials .carousel .carousel-control {
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+	left: 0;
+	top: initial;
+	width: 30px;
+	height: 30px;
+	line-height: 28px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+	text-shadow: none;
+	background: transparent;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#testimonials .carousel .carousel-control:hover {opacity: 1;}
+
+/* End Testimonials Section */
+
+/* -------------------------------------
+    ( 10 ) Start Services Section
+* ------------------------------------- */
+#services .separator {margin: 10px auto;}
+#services .service {margin-bottom: 40px;}
+#services .service i {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	color:  #333;
+	background: #f2f2f2;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#services .service i:after {
+	position: absolute;
+	content: "";
+	top: -6px;
+	left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50%;
+	opacity: 0;
+	-webkit-transform: scale(0.8);
+	    -ms-transform: scale(0.8);
+	        transform: scale(0.8);
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#services .service h4 {margin-bottom: 15px;}
+#services .service:hover i {color: #fff;}
+#services .service:hover i:after {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
+}
+
+/* End Services Section */
+
+/* -------------------------------------
+    ( 17 ) Start Contact Section
+* ------------------------------------- */
+#contact {
+	background: #333 url("../img/contact.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+#contact.parallax {background-attachment: fixed;}
+#contact p, #contact h2 {color: #fff;}
+#contact .call-info {overflow: hidden;}
+#contact .call-info .info-wrapper {
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact .call-info, #contact .call-info i, #contact .call-info h4 {
+	position: relative;
+	color: #ddd;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact .call-info i {
+	display: inline-block;
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px;
+	line-height: 60px;
+	border-radius: 50%;
+	color: #fff;
+	top: 50px;
+}
+#contact .call-info h4 {
+	letter-spacing: 1.5px; 
+	color: #fff; 
+	top: 50px;
+}
+#contact .call-info p {
+	position: relative;
+	margin-bottom: 0; 
+	letter-spacing: 1px;
+	bottom: -70px;
+	opacity: 0;
+}
+#contact .call-info:hover i, 
+#contact .call-info:focus i,
+#contact .call-info:active i {background: #fff; top: 0px;}
+#contact .call-info:hover h4,
+#contact .call-info:focus h4,
+#contact .call-info:active h4 {color: #fff; top: 0px;} 
+#contact .call-info:hover p,
+#contact .call-info:focus p,
+#contact .call-info:active p {
+	color: #fff;
+	bottom: 0px;
+	opacity: 1;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact form .form-intro {margin-bottom: 20px;}
+#contact .form-intro h4, #contact .form-intro p {text-align: left; color: #fff;} 
+#contact form .form-control {
+	border: none; 
+	letter-spacing: 2px;
+	color: #eee;
+	background: rgba(139, 145, 150, 0.12);
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact form .form-control:focus {background: rgba(139, 145, 150, 0.22);}
+#contact form label.input-group-addon {
+	border: none;
+	background: rgba(139, 145, 150, 0.42);
+	color: #fff;
+}
+#contact form input {
+	position: relative;
+	z-index: 1;
+	height: auto;
+	padding: 15px;
+	box-shadow: none;
+}
+#contact form textarea {
+	resize: none;
+	padding: 15px;
+	box-shadow: none;
+}
+#contact form #submit {
+	margin: 0px;
+	background: transparent;
+	color: #fff;
+	border-color: #fff;
+	padding: 15px;
+}
+#contact .form-response {
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	display: none;
+}
+#contact .social-wrapper {margin-top: 80px; margin-bottom: 40px;}
+#contact .social-wrapper h4 {color: #fff; margin-top: 0px;}
+#contact .social-wrapper .social-links {margin-top: 20px;}
+#contact .social-wrapper .icon {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background: #555;
+	overflow: hidden;
+	-webkit-transition: background 0.2s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+			transition: background 0.2s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact .social-wrapper .icon.fb:hover {background: #3b5998;}
+#contact .social-wrapper .icon.tw:hover {background: #55acee;}
+#contact .social-wrapper .icon.gh:hover {background: #333;}
+#contact .social-wrapper .icon.cp:hover {background: #212121;}
+#contact .social-wrapper .icon.li:hover {background: #00a0dc;}
+#contact .social-wrapper .icon.dr:hover {background: #ea4c89;}
+#contact .social-wrapper .icon.be:hover {background: #1769ff;}
+#contact .social-wrapper .icon::before {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	font-size: 22px;
+	line-height: 50px;
+	font-family: FontAwesome;
+  	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #eee;
+  	-webkit-font-smoothing: antialiased;
+}
+#contact .social-wrapper .icon:hover::before {
+	-webkit-animation: icon-to-top 0.3s forwards cubic-bezier(0.68, -0.07, 0.25, 0.93);
+  			animation: icon-to-top 0.3s forwards cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#contact .social-wrapper .icon.fb::before {content: "\f09a";}
+#contact .social-wrapper .icon.tw::before {content: "\f099";}
+#contact .social-wrapper .icon.gh::before {content: "\f09b";}
+#contact .social-wrapper .icon.cp::before {content: "\f1cb";}
+#contact .social-wrapper .icon.li::before {content: "\f0e1";}
+#contact .social-wrapper .icon.dr::before {content: "\f17d";}
+#contact .social-wrapper .icon.be::before {content: "\f1b4";}
+
+@-webkit-keyframes icon-to-top {
+	49% {
+		-webkit-transform: translateY(-100%);
+				transform: translateY(-100%);
+	}
+	50% {
+		opacity: 1;
+		-webkit-transform: translateY(-100%);
+				transform: translateY(100%);
+	}
+	51% {opacity: 1;}
+}
+@keyframes icon-to-top {
+	49% {
+		-webkit-transform: translateY(-100%);
+				transform: translateY(-100%);
+	}
+	50% {
+		opacity: 1;
+		-webkit-transform: translateY(-100%);
+				transform: translateY(100%);
+	}
+	51% {opacity: 1;}
+}
+
+/* End Contact Section */
