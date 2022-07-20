@@ -1,4 +1,4 @@
-# Mundana - Free Bootstrap HTML Blogging Template
+# JAMES GATIMU GITHUB PROFILE
 
 see my profile here [gatimu.github.io](https://gatimu.github.io).
 
